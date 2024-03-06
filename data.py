@@ -22,15 +22,18 @@ def collect_sensor_data_manually():
 
 def save_sensor_data_to_file(sensor_data, filename):
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(filename, 'a') as file:
-        file.write("\nDate: {}\n".format(current_date))
-        file.write("Temperature: {}\n".format(sensor_data.temperature))
-        file.write("Moisture: {}\n".format(sensor_data.moisture))
-        file.write("pH: {}\n".format(sensor_data.pH))
-        file.write("Ammonia Gas: {}\n".format(sensor_data.ammonia_gas))
-        file.write("Conductivity: {}\n".format(sensor_data.conductivity))
-        file.write("Light Intensity: {}\n".format(sensor_data.light_intensity))
-    print("Sensor data appended to", filename)
+    try:
+        with open(filename, 'a') as file:  # Open the file in append mode
+            file.write("\nDate: {}\n".format(current_date))
+            file.write("Temperature: {}\n".format(sensor_data.temperature))
+            file.write("Moisture: {}\n".format(sensor_data.moisture))
+            file.write("pH: {}\n".format(sensor_data.pH))
+            file.write("Ammonia Gas: {}\n".format(sensor_data.ammonia_gas))
+            file.write("Conductivity: {}\n".format(sensor_data.conductivity))
+            file.write("Light Intensity: {}\n".format(sensor_data.light_intensity))
+        print("Sensor data appended to", filename)
+    except Exception as e:
+        print("An error occurred while writing to the file:", e)
 
 def main():
     # Choose whether to collect sensor data manually or through sensors
