@@ -1,0 +1,21 @@
+Name,Temp_Min,Temp_Max,Moisture_Min,Moisture_Max,pH_Min,pH_Max,Light_Intensity_Min,Light_Intensity_Max,Growing_Season_Min,Growing_Season_Max
+Wheat,15,24,60,70,6.0,7.5,10000,15000,90,150
+Rice,20,35,70,90,5.5,6.5,15000,20000,120,200
+Maize,18,30,60,80,5.5,7.0,12000,18000,60,100
+Soybean,20,30,50,70,6.0,6.8,12000,18000,90,150
+Potato,15,25,70,80,5.0,6.5,8000,12000,90,120
+Tomato,21,24,None,None,6.0,6.8,None,None,60,85
+Lettuce,16,24,None,None,6.0,7.0,None,None,50,70
+Carrot,15,20,None,None,6.0,7.0,None,None,70,80
+Cucumber,21,32,None,None,6.0,7.0,None,None,50,70
+Bell Pepper,21,29,None,None,6.0,6.8,None,None,60,90
+Spinach,10,24,60,80,6.0,7.0,8000,12000,40,60
+Onion,15,25,60,80,5.5,7.0,8000,12000,100,150
+Garlic,15,30,50,70,6.0,7.5,8000,12000,90,120
+Cabbage,10,24,70,80,6.0,7.0,8000,12000,80,100
+Broccoli,15,24,60,80,6.0,7.0,8000,12000,60,90
+Brussels Sprouts,15,24,60,80,6.0,7.0,8000,12000,80,100
+Cauliflower,15,24,60,80,6.0,7.0,8000,12000,80,100
+Beetroot,10,24,60,80,6.0,7.0,8000,12000,60,90
+Asparagus,18,24,60,80,6.0,7.0,8000,12000,180,200
+Artichoke,15,25,50,70,6.0,7.5,8000,12000,90,120

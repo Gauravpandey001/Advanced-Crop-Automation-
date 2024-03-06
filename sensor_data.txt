@@ -1,0 +1,46 @@
+Temperature: 33.0
+Moisture: 23.0
+pH: 23.0
+Ammonia Gas: 543.0
+Conductivity: 34.0
+Light Intensity: 433.0
+
+Date: 2024-03-06 23:20:56
+Temperature: 33.0
+Moisture: 54.0
+pH: 654.0
+Ammonia Gas: 43.0
+Conductivity: 65.0
+Light Intensity: 34.0
+
+Date: 2024-03-06 23:21:21
+Temperature: 34.0
+Moisture: 34.0
+pH: 65.0
+Ammonia Gas: 876.0
+Conductivity: 546.0
+Light Intensity: 45.0
+
+Date: 2024-03-06 23:22:32
+Temperature: 34.0
+Moisture: 4.0
+pH: 4.0
+Ammonia Gas: 3.0
+Conductivity: 43.0
+Light Intensity: 2.0
+
+Date: 2024-03-06 23:24:14
+Temperature: 3.0
+Moisture: 4.0
+pH: 34.0
+Ammonia Gas: 2.0
+Conductivity: 4.0
+Light Intensity: 3.0
+
+Date: 2024-03-06 23:24:39
+Temperature: 33.0
+Moisture: 4.0
+pH: 2.0
+Ammonia Gas: 54.0
+Conductivity: 65.0
+Light Intensity: 45.0
