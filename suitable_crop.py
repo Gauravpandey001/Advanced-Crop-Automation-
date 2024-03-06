@@ -49,6 +49,10 @@ def identify_best_suited_crops(sensor_data, crops):
         if not unsuitable_reasons[crop.name]:
             best_crops.append(crop.name)
 
+    
+    for crop in best_crops:
+        del unsuitable_reasons[crop]
+
     return best_crops, unsuitable_reasons
 
 
