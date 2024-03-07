@@ -15,12 +15,7 @@ params = {
               "shortwave_radiation_sum", "relative_humidity_2m_mean",
               "relative_humidity_2m_max", "relative_humidity_2m_min",
               "precipitation_sum", "rain_sum", "snowfall_sum",
-              "pressure_msl_mean", "soil_moisture_0_to_10cm_mean",
-              "reference_evapotranspiration"],
-    "temperature_unit": "celsius",
-    "wind_speed_unit": "kmh",
-    "precipitation_unit": "mm",
-    "timeformat": "iso8601"
+              "pressure_msl_mean", "soil_moisture_0_to_10cm_mean"]
 }
 
 # Make the API request
@@ -51,8 +46,7 @@ for location_response in response:
         "Rain Sum": daily_data.Variables(11).ValuesAsNumpy(),
         "Snowfall Sum": daily_data.Variables(12).ValuesAsNumpy(),
         "Sealevel Pressure": daily_data.Variables(13).ValuesAsNumpy(),
-        "Mean Soil Moisture (0-10cm)": daily_data.Variables(14).ValuesAsNumpy(),
-        "Reference Evapotranspiration (ET₀)": daily_data.Variables(15).ValuesAsNumpy()
+        "Mean Soil Moisture (0-10cm)": daily_data.Variables(14).ValuesAsNumpy()
     })
     
     # Save daily data to a CSV file
