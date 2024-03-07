@@ -37,3 +37,11 @@ pH: 6.5
 Ammonia Gas: 45.0
 Conductivity: 65.0
 Light Intensity: 10024.0
+
+Date: 2024-03-07 08:27:06
+Temperature: 16.0
+Moisture: 65.0
+pH: 6.5
+Ammonia Gas: 56.0
+Conductivity: 45.0
+Light Intensity: 10024.0
