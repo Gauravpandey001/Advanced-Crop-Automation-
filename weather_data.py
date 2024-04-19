@@ -8,8 +8,8 @@ openmeteo = openmeteo_requests.Client()
 params = {
     "latitude": 30.3244,
     "longitude": 78.0339,
-    "start_date": "2024-03-06",
-    "end_date": "2025-05-06",
+    "start_date": "2024-04-03",
+    "end_date": "2025-04-08",  # Extend the end date by one year
     "daily": ["temperature_2m_mean", "temperature_2m_max", "temperature_2m_min",
               "wind_speed_10m_mean", "wind_speed_10m_max", "cloud_cover_mean",
               "shortwave_radiation_sum", "relative_humidity_2m_mean",
